@@ -7,8 +7,15 @@
   </head>
   <body>
     <h1>Mini Blog</h1>
-    <div id="posts"></div>
 
+    <!-- Form to create new posts -->
+    <form id="new-post-form">
+      <input type="text" id="title" placeholder="Post title" required />
+      <textarea id="content" placeholder="Post content" required></textarea>
+      <button type="submit">Submit</button>
+    </form>
+
+    <div id="posts"></div>
     <!-- Scripts -->
     <script type="module" src="index.js"></script>
   </body>
