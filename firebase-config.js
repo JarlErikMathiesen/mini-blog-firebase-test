@@ -3,9 +3,12 @@ import { initializeApp } from 'https://www.gstatic.com/firebasejs/10.13.2/fireba
 import { getFirestore } from 'https://www.gstatic.com/firebasejs/10.13.2/firebase-firestore.js';
 
 const firebaseConfig = {
-  apiKey: 'YOUR_API_KEY',
-  authDomain: 'YOUR_PROJECT.firebaseapp.com',
-  projectId: 'YOUR_PROJECT_ID',
+  apiKey: 'AIzaSyBZs4Apl00BxSuc2IuWFOHDLvh_8dwnyGE',
+  authDomain: 'mini-blog-1f44c.firebaseapp.com',
+  projectId: 'mini-blog-1f44c',
+  storageBucket: 'mini-blog-1f44c.firebasestorage.app',
+  messagingSenderId: '272340552801',
+  appId: '1:272340552801:web:219452557346d084a4ee20',
 };
 
 export const app = initializeApp(firebaseConfig);
