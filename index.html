@@ -14,15 +14,19 @@
   <body>
     <h1>Mini Blog</h1>
 
-    <!-- Form to create new posts -->
-    <form id="new-post-form">
-      <input type="text" id="title" placeholder="Post title" required />
-      <textarea id="content" placeholder="Post content" required></textarea>
-      <button type="submit">Submit</button>
-    </form>
+    <button id="loginBtn">Login with Google</button>
+    <button id="logoutBtn" style="display: none">Logout</button>
 
     <div id="posts"></div>
-    <!-- Scripts -->
+
+    <!-- Simple form for new posts -->
+    <div id="postForm" style="display: none">
+      <h2>New Post</h2>
+      <input id="title" placeholder="Title" />
+      <textarea id="content" placeholder="Content"></textarea>
+      <button id="publishBtn">Publish</button>
+    </div>
+
     <script type="module" src="index.js"></script>
   </body>
 </html>
